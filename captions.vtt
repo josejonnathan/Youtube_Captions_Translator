@@ -1,0 +1,1024 @@
+WEBVTT
+
+00:00:00.160 --> 00:00:03.639
+alguna vez te has preguntado cómo se
+
+00:00:01.680 --> 00:00:05.319
+hace el audio en los videojuegos si
+
+00:00:03.639 --> 00:00:08.319
+quieres saber la respuesta Entonces
+
+00:00:05.319 --> 00:00:08.319
+vamos directo al
+
+00:00:13.080 --> 00:00:17.480
+punto los videojuegos ocupan la tercera
+
+00:00:15.719 --> 00:00:19.320
+posición en relevancia dentro de la
+
+00:00:17.480 --> 00:00:21.320
+Industria Del entretenimiento a nivel
+
+00:00:19.320 --> 00:00:22.840
+mundial al mismo tiempo es una incógnita
+
+00:00:21.320 --> 00:00:25.039
+para muchos ingenieros y entusiastas del
+
+00:00:22.840 --> 00:00:27.040
+audio hoy vamos a aprender Cómo funciona
+
+00:00:25.039 --> 00:00:28.960
+el audio en los
+
+00:00:27.040 --> 00:00:31.160
+[Música]
+
+00:00:28.960 --> 00:00:32.840
+videojuegos lo primero que debemos saber
+
+00:00:31.160 --> 00:00:34.200
+es que el audio para videojuegos se
+
+00:00:32.840 --> 00:00:36.320
+aborda desde una perspectiva
+
+00:00:34.200 --> 00:00:38.440
+completamente distinta a cualquier otra
+
+00:00:36.320 --> 00:00:40.239
+rama del audio porque mientras en la
+
+00:00:38.440 --> 00:00:42.200
+producción Musical Por ejemplo y la
+
+00:00:40.239 --> 00:00:44.840
+postproducción se realizan sobre
+
+00:00:42.200 --> 00:00:47.039
+materiales fijos es decir la película o
+
+00:00:44.840 --> 00:00:48.920
+la canción Siempre serán iguales sin
+
+00:00:47.039 --> 00:00:50.600
+importar Cuántas veces se reproduzcan
+
+00:00:48.920 --> 00:00:52.719
+por tanto nuestras decisiones sobre el
+
+00:00:50.600 --> 00:00:54.879
+sonido también lo serán por otro lado el
+
+00:00:52.719 --> 00:00:56.879
+sonido en vivo tiene otra perspectiva
+
+00:00:54.879 --> 00:00:58.960
+porque cada concierto es diferente Y las
+
+00:00:56.879 --> 00:01:00.719
+cosas ocurren en tiempo real Por lo cual
+
+00:00:58.960 --> 00:01:02.760
+cada decisión sobre por el sonido es
+
+00:01:00.719 --> 00:01:04.479
+momentánea y muchas veces pasajera el
+
+00:01:02.760 --> 00:01:06.760
+audio en los videojuegos está situado
+
+00:01:04.479 --> 00:01:08.159
+justo en medio de estas dos y es que
+
+00:01:06.760 --> 00:01:10.520
+aunque conozcamos la situación que
+
+00:01:08.159 --> 00:01:12.479
+estamos sonorizando desconocemos las
+
+00:01:10.520 --> 00:01:14.159
+decisiones que tomará el jugador así por
+
+00:01:12.479 --> 00:01:16.119
+ejemplo no puedo crear una canción que
+
+00:01:14.159 --> 00:01:17.600
+tenga una duración específica para un
+
+00:01:16.119 --> 00:01:19.520
+nivel porque puede que el jugador
+
+00:01:17.600 --> 00:01:21.920
+termine el nivel en un minuto así como
+
+00:01:19.520 --> 00:01:23.479
+puede tardar 20 minutos Así que podemos
+
+00:01:21.920 --> 00:01:25.360
+decir que el audio para los videojuegos
+
+00:01:23.479 --> 00:01:28.840
+es un proceso en el que debemos plantear
+
+00:01:25.360 --> 00:01:31.840
+un sonido versátil y adaptable todo el
+
+00:01:28.840 --> 00:01:31.840
+tiempo
+
+00:01:32.119 --> 00:01:35.479
+antes de empezar a diseñar el sonido
+
+00:01:33.640 --> 00:01:37.880
+para un videojuego debemos dividir el
+
+00:01:35.479 --> 00:01:41.799
+trabajo en dos escenarios distintos las
+
+00:01:37.880 --> 00:01:41.799
+cutss y el material in
+
+00:01:42.200 --> 00:01:47.960
+game las cutss o cinemáticas son estas
+
+00:01:46.000 --> 00:01:49.960
+escenas PR renderizadas que se
+
+00:01:47.960 --> 00:01:52.360
+reproducen y sobre las cuales el jugador
+
+00:01:49.960 --> 00:01:54.640
+no tiene ningún control es decir son
+
+00:01:52.360 --> 00:01:56.520
+pequeños videos como por ejemplo los que
+
+00:01:54.640 --> 00:01:58.439
+se muestran entre niveles a la
+
+00:01:56.520 --> 00:02:01.119
+introducción o al finalizar el juego
+
+00:01:58.439 --> 00:02:03.039
+procesar estas css es algo parecido al
+
+00:02:01.119 --> 00:02:05.039
+trabajo que se hace en postproducción
+
+00:02:03.039 --> 00:02:06.560
+porque dicha escena va a ser igual todas
+
+00:02:05.039 --> 00:02:08.399
+las veces que se reproduzcan si no
+
+00:02:06.560 --> 00:02:09.959
+tienes claro Qué es la postproducción te
+
+00:02:08.399 --> 00:02:12.280
+invito a que veas el video que tengo al
+
+00:02:09.959 --> 00:02:14.400
+respecto en el canal entonces acá debo
+
+00:02:12.280 --> 00:02:16.560
+completar los efectos la música y los
+
+00:02:14.400 --> 00:02:18.840
+diálogos y finalizar su mezcla Porque
+
+00:02:16.560 --> 00:02:20.519
+será Así exactamente que se reproduzca
+
+00:02:18.840 --> 00:02:22.519
+Este es un buen momento para decirte que
+
+00:02:20.519 --> 00:02:25.599
+te suscribas al Canal que le des like al
+
+00:02:22.519 --> 00:02:25.599
+video Y si te gusta lo
+
+00:02:26.599 --> 00:02:31.319
+compartas por otro lado está el material
+
+00:02:29.120 --> 00:02:33.239
+iname que tiene otra perspectiva
+
+00:02:31.319 --> 00:02:34.879
+completamente distinta ya que dependemos
+
+00:02:33.239 --> 00:02:36.680
+de las decisiones que tome el jugador y
+
+00:02:34.879 --> 00:02:38.640
+estas serán diferentes cada vez por
+
+00:02:36.680 --> 00:02:40.440
+tanto ninguna audio en esta etapa es
+
+00:02:38.640 --> 00:02:43.040
+fijo y existe la posibilidad de que se
+
+00:02:40.440 --> 00:02:44.760
+reproduzca muchas veces así como ninguna
+
+00:02:43.040 --> 00:02:46.640
+si por ejemplo tenemos un audio definido
+
+00:02:44.760 --> 00:02:48.239
+para cuando un personaje reciba un daño
+
+00:02:46.640 --> 00:02:50.400
+por un enemigo puede que el jugador
+
+00:02:48.239 --> 00:02:53.000
+decida jugar el nivel de manera sigilosa
+
+00:02:50.400 --> 00:02:55.640
+y completarlo sin recibir ningún daño
+
+00:02:53.000 --> 00:02:57.040
+por tanto ese sonido no se reproduce
+
+00:02:55.640 --> 00:02:59.000
+Pero por otro lado el jugador puede
+
+00:02:57.040 --> 00:03:00.760
+tomar la acción en sus manos y llevarla
+
+00:02:59.000 --> 00:03:02.239
+a enfrentar a sus enemigos Y
+
+00:03:00.760 --> 00:03:05.360
+probablemente este sonido se va a
+
+00:03:02.239 --> 00:03:05.360
+reproducir muchas
+
+00:03:05.720 --> 00:03:11.080
+veces los elementos individuales de cada
+
+00:03:08.480 --> 00:03:12.920
+videojuego son llamados assets y ellos
+
+00:03:11.080 --> 00:03:15.080
+abarcan todos los elementos del juego
+
+00:03:12.920 --> 00:03:17.200
+como los personajes las plataformas los
+
+00:03:15.080 --> 00:03:19.040
+fondos etcétera y el sonido también
+
+00:03:17.200 --> 00:03:21.040
+entra allí y estos sonidos cumplen
+
+00:03:19.040 --> 00:03:23.480
+funciones variadas dentro del juego Los
+
+00:03:21.040 --> 00:03:25.640
+Gameplay cues que son básicamente
+
+00:03:23.480 --> 00:03:27.400
+indicaciones que proveen al jugador de
+
+00:03:25.640 --> 00:03:29.319
+información sobre el juego como la
+
+00:03:27.400 --> 00:03:31.040
+cercanía de un enemigo cuando tienes
+
+00:03:29.319 --> 00:03:33.000
+algo la mira o cuando terminas el
+
+00:03:31.040 --> 00:03:34.840
+desarrollo de una habilidad estos
+
+00:03:33.000 --> 00:03:37.200
+sonidos también pueden proveerte de
+
+00:03:34.840 --> 00:03:42.720
+retroalimentación para que sepas si algo
+
+00:03:37.200 --> 00:03:42.720
+bueno o algo malo le pasa a tu
+
+00:03:43.239 --> 00:03:48.000
+personaje por otro lado existen también
+
+00:03:46.080 --> 00:03:49.640
+sonidos cuya función es manipular las
+
+00:03:48.000 --> 00:03:51.760
+emociones del jugador con el fin de
+
+00:03:49.640 --> 00:03:53.319
+hacer el juego más inmersivo imagina que
+
+00:03:51.760 --> 00:03:55.360
+estás en medio de una batalla y tu
+
+00:03:53.319 --> 00:03:57.640
+energía está llegando al mínimo en ese
+
+00:03:55.360 --> 00:03:59.799
+momento el sonido tendrá más tensión Y
+
+00:03:57.640 --> 00:04:01.599
+probablemente más elementos rítmicos que
+
+00:03:59.799 --> 00:04:03.280
+buscan crear la sensación de angustia y
+
+00:04:01.599 --> 00:04:05.400
+un poco de desesperación en el jugador
+
+00:04:03.280 --> 00:04:08.000
+por recuperarse de igual manera si hemos
+
+00:04:05.400 --> 00:04:10.000
+Derrotado a todos los enemigos el sonido
+
+00:04:08.000 --> 00:04:13.480
+nos puede revelar e incrementar la
+
+00:04:10.000 --> 00:04:13.480
+sensación de satisfacción ante la
+
+00:04:13.799 --> 00:04:17.120
+victoria al igual que en la
+
+00:04:15.760 --> 00:04:19.000
+postproducción el sonido en los
+
+00:04:17.120 --> 00:04:23.710
+videojuegos se divide en tres grandes
+
+00:04:19.000 --> 00:04:24.960
+categorías los efectos la música y los
+
+00:04:23.710 --> 00:04:27.400
+[Música]
+
+00:04:24.960 --> 00:04:29.800
+diálogos los efectos son probablemente
+
+00:04:27.400 --> 00:04:31.440
+la categoría más grande de sonidos y la
+
+00:04:29.800 --> 00:04:33.520
+principal tarea que allí se debe
+
+00:04:31.440 --> 00:04:35.320
+realizar es el diseño de sonido que no
+
+00:04:33.520 --> 00:04:37.680
+es más que la creación de sonidos sin
+
+00:04:35.320 --> 00:04:39.800
+precedentes es decir sonidos que no
+
+00:04:37.680 --> 00:04:42.160
+existen en la vida real y que deben ser
+
+00:04:39.800 --> 00:04:44.199
+creados para eventos específicos los
+
+00:04:42.160 --> 00:04:46.440
+eventos en un videojuego son como los
+
+00:04:44.199 --> 00:04:48.160
+gatillos o los detonadores de ciertas
+
+00:04:46.440 --> 00:04:49.759
+cosas que pasan dentro del juego y esto
+
+00:04:48.160 --> 00:04:51.199
+incluye también los sonidos por ejemplo
+
+00:04:49.759 --> 00:04:53.360
+cuando un jugador presiona el botón de
+
+00:04:51.199 --> 00:04:55.440
+disparo el evento disparo desencadena
+
+00:04:53.360 --> 00:04:57.160
+ciertas acciones dentro del juego como
+
+00:04:55.440 --> 00:04:59.360
+Reproducir el sonido de disparo pero
+
+00:04:57.160 --> 00:05:01.360
+también Mostrar la animación del mismo y
+
+00:04:59.360 --> 00:05:03.479
+va básicamente cada cambio dentro de un
+
+00:05:01.360 --> 00:05:05.720
+videojuego es iniciado y finalizado con
+
+00:05:03.479 --> 00:05:05.720
+un
+
+00:05:05.759 --> 00:05:10.199
+evento regresando al diseño de sonidos
+
+00:05:08.600 --> 00:05:12.440
+el trabajo se vale del uso de
+
+00:05:10.199 --> 00:05:15.680
+sintetizadores y efectos para lograr por
+
+00:05:12.440 --> 00:05:15.680
+ejemplo el efecto de un
+
+00:05:16.680 --> 00:05:20.360
+[Música]
+
+00:05:17.960 --> 00:05:22.440
+láser otro tipo de efecto con el que
+
+00:05:20.360 --> 00:05:24.520
+debemos tratar son los ambientes estos
+
+00:05:22.440 --> 00:05:26.600
+suelen ser loops y contienen elementos
+
+00:05:24.520 --> 00:05:28.600
+que no están sincronizados con la imagen
+
+00:05:26.600 --> 00:05:30.199
+y que suelen hacer parte de la escena
+
+00:05:28.600 --> 00:05:32.160
+con ellos puedo dar un feedback al
+
+00:05:30.199 --> 00:05:33.800
+jugador sobre el ambiente que lo rodea
+
+00:05:32.160 --> 00:05:36.639
+justo como ustedes escuchan este
+
+00:05:33.800 --> 00:05:38.360
+ambiente en este momento y que puede
+
+00:05:36.639 --> 00:05:42.120
+cambiar en cualquier momento para dar un
+
+00:05:38.360 --> 00:05:42.120
+contexto completamente diferente al
+
+00:05:43.160 --> 00:05:47.160
+video también hay sonidos que no
+
+00:05:45.520 --> 00:05:48.840
+provienen del diseño de sonido los
+
+00:05:47.160 --> 00:05:51.280
+cuales pueden venir de librerías de
+
+00:05:48.840 --> 00:05:52.800
+sonido previamente desarrolladas o bien
+
+00:05:51.280 --> 00:05:55.120
+pueden ser grabados por el equipo de
+
+00:05:52.800 --> 00:05:56.919
+sonido del videojuego aquí Lo importante
+
+00:05:55.120 --> 00:05:58.639
+es que sean de Gran calidad y que
+
+00:05:56.919 --> 00:06:00.680
+correspondan correctamente con la
+
+00:05:58.639 --> 00:06:02.240
+experiencia que va a tener el jugador en
+
+00:06:00.680 --> 00:06:04.680
+este ejemplo podemos ver a nuestro
+
+00:06:02.240 --> 00:06:06.720
+personaje que corre pero desconocemos el
+
+00:06:04.680 --> 00:06:08.680
+material sobre el cual lo hace Así
+
+00:06:06.720 --> 00:06:11.280
+podrás darte una idea de cuál es su
+
+00:06:08.680 --> 00:06:13.919
+entorno nada más Al escuchar sus
+
+00:06:11.280 --> 00:06:16.880
+pasos y se hace más claro Aún si
+
+00:06:13.919 --> 00:06:16.880
+escuchamos todo el
+
+00:06:20.199 --> 00:06:25.240
+entorno ahora hablemos un poco sobre la
+
+00:06:22.840 --> 00:06:27.319
+música que es en gran parte responsable
+
+00:06:25.240 --> 00:06:29.479
+de conectar las emociones del jugador
+
+00:06:27.319 --> 00:06:31.360
+así por ejemplo al ver a nuestro
+
+00:06:29.479 --> 00:06:32.800
+personaje con determinada música se nos
+
+00:06:31.360 --> 00:06:35.080
+puede dar la percepción de que está
+
+00:06:32.800 --> 00:06:37.639
+frente a algo
+
+00:06:35.080 --> 00:06:39.880
+peligroso o tal vez frente a una
+
+00:06:37.639 --> 00:06:45.199
+aventura
+
+00:06:39.880 --> 00:06:45.199
+épica o quizás en un viaje mucho más
+
+00:06:45.880 --> 00:06:50.280
+emotivo pero al mismo tiempo tenemos que
+
+00:06:48.639 --> 00:06:52.639
+ser coherentes con el concepto general
+
+00:06:50.280 --> 00:06:54.479
+del juego Entonces por ejemplo un tema
+
+00:06:52.639 --> 00:06:57.160
+musical se puede presentar en versiones
+
+00:06:54.479 --> 00:06:59.039
+distintas que se adaptan mejor o peor al
+
+00:06:57.160 --> 00:07:00.040
+concepto del juego Como por ejemplo este
+
+00:06:59.039 --> 00:07:06.790
+caso
+
+00:07:00.040 --> 00:07:06.790
+[Música]
+
+00:07:10.000 --> 00:07:16.199
+y para ti Cuál es el más coherente con
+
+00:07:12.280 --> 00:07:16.199
+este personaje Déjame tu opinión en los
+
+00:07:16.960 --> 00:07:21.199
+comentarios probablemente en la música
+
+00:07:19.199 --> 00:07:23.039
+esté la diferencia más grande respecto a
+
+00:07:21.199 --> 00:07:25.639
+las tareas que se hacen en el audio Y es
+
+00:07:23.039 --> 00:07:27.199
+que componer la música para videojuegos
+
+00:07:25.639 --> 00:07:29.680
+requiere de habilidades bastante
+
+00:07:27.199 --> 00:07:31.479
+especiales y específicas la música en
+
+00:07:29.680 --> 00:07:33.879
+los videojuegos se debe ver desde dos
+
+00:07:31.479 --> 00:07:36.360
+puntos de vista primero se trata de la
+
+00:07:33.879 --> 00:07:38.599
+duración Y es que cada pieza musical es
+
+00:07:36.360 --> 00:07:41.400
+desarrollada para un nivel en específico
+
+00:07:38.599 --> 00:07:42.960
+y debe poder ser tan larga o tan corta
+
+00:07:41.400 --> 00:07:45.360
+como la habilidad del jugador para
+
+00:07:42.960 --> 00:07:46.919
+finalizar ese evento en particular Eso
+
+00:07:45.360 --> 00:07:48.759
+quiere decir que la música debe poder
+
+00:07:46.919 --> 00:07:50.720
+repetirse Tantas veces como sea
+
+00:07:48.759 --> 00:07:52.639
+necesario sin que el jugador note que
+
+00:07:50.720 --> 00:07:54.520
+est vuelto a empezar y Esto se logra
+
+00:07:52.639 --> 00:07:56.199
+regularmente con el uso de loops los
+
+00:07:54.520 --> 00:07:58.199
+fragmentos de música se repiten
+
+00:07:56.199 --> 00:08:00.319
+constantemente y son ajustados de manera
+
+00:07:58.199 --> 00:08:02.560
+cuidadosa para que no se perciba dicha
+
+00:08:00.319 --> 00:08:04.639
+repetición de esta forma la música puede
+
+00:08:02.560 --> 00:08:06.280
+tener una duración infinita y al
+
+00:08:04.639 --> 00:08:08.360
+finalizar el evento en cuestión se
+
+00:08:06.280 --> 00:08:12.199
+reproducirá un Empalme con otra pieza
+
+00:08:08.360 --> 00:08:12.199
+musical o con la finalización de la
+
+00:08:14.710 --> 00:08:20.000
+[Música]
+
+00:08:17.440 --> 00:08:22.120
+misma el otro punto de vista son las
+
+00:08:20.000 --> 00:08:23.840
+capas que conforman dicha pieza musical
+
+00:08:22.120 --> 00:08:25.840
+Y es que estas suelen comportarse de
+
+00:08:23.840 --> 00:08:28.240
+manera dinámica Respecto a los eventos
+
+00:08:25.840 --> 00:08:31.240
+que suceden en el
+
+00:08:28.240 --> 00:08:31.240
+juego
+
+00:08:34.719 --> 00:08:39.039
+es decir la música no es igual Cuando
+
+00:08:36.959 --> 00:08:40.680
+recién empieza un ataque que cuando el
+
+00:08:39.039 --> 00:08:43.200
+jugador está a punto de agotar toda su
+
+00:08:40.680 --> 00:08:45.040
+energía y el final del evento No es el
+
+00:08:43.200 --> 00:08:47.680
+mismo si el jugador gana o pierde la
+
+00:08:45.040 --> 00:08:50.160
+partida esto se soluciona componiendo y
+
+00:08:47.680 --> 00:08:51.880
+arreglando la música por capas de sonido
+
+00:08:50.160 --> 00:08:53.519
+que permiten colocar y retirar
+
+00:08:51.880 --> 00:08:55.320
+instrumentación y efectos en
+
+00:08:53.519 --> 00:08:56.920
+determinados eventos del juego así
+
+00:08:55.320 --> 00:08:59.040
+nuestro jugador puede pasar de entrar en
+
+00:08:56.920 --> 00:09:02.720
+un ambiente enigmático a tener una fase
+
+00:08:59.040 --> 00:09:02.720
+de de acción con muchas opciones en
+
+00:09:03.839 --> 00:09:08.920
+intermedio los diálogos en un videojuego
+
+00:09:06.519 --> 00:09:11.480
+requieren ser dinámicos y generalmente
+
+00:09:08.920 --> 00:09:14.000
+se deben grabar una cantidad enorme de
+
+00:09:11.480 --> 00:09:17.519
+líneas una línea puede ser desde una
+
+00:09:14.000 --> 00:09:19.040
+simple reacción como un uh Ah a una
+
+00:09:17.519 --> 00:09:21.360
+línea de diálogo Y es que regularmente
+
+00:09:19.040 --> 00:09:23.440
+una línea de diálogo se graba con dos o
+
+00:09:21.360 --> 00:09:25.440
+tres variaciones para que en dado caso
+
+00:09:23.440 --> 00:09:27.040
+se repita no suene
+
+00:09:25.440 --> 00:09:29.640
+[Música]
+
+00:09:27.040 --> 00:09:30.880
+monótona También es importante Resaltar
+
+00:09:29.640 --> 00:09:32.640
+que los diálogos deben estar
+
+00:09:30.880 --> 00:09:34.079
+especialmente limpios ya que estos se
+
+00:09:32.640 --> 00:09:36.160
+terminarán reproduciendo en gran
+
+00:09:34.079 --> 00:09:38.040
+variedad de situaciones que se alteran
+
+00:09:36.160 --> 00:09:39.600
+dependiendo una vez más de las
+
+00:09:38.040 --> 00:09:41.600
+decisiones del jugador Y es que por
+
+00:09:39.600 --> 00:09:43.399
+ejemplo la acústica del escenario
+
+00:09:41.600 --> 00:09:45.440
+alterará la reverberación con la que se
+
+00:09:43.399 --> 00:09:47.480
+mezcle el diálogo porque no es lo mismo
+
+00:09:45.440 --> 00:09:50.800
+que el personaje esté en una cueva una
+
+00:09:47.480 --> 00:09:53.200
+cueva que en un baño un baño o al aire
+
+00:09:50.800 --> 00:09:54.720
+libre o al aire libre ahora bien hay
+
+00:09:53.200 --> 00:09:56.320
+algunos efectos que deben agregarse a
+
+00:09:54.720 --> 00:09:58.640
+los diálogos antes de estar en la lista
+
+00:09:56.320 --> 00:10:01.160
+de assets Entonces si un personaje del
+
+00:09:58.640 --> 00:10:03.240
+juego tiene un efecto que Define su voz
+
+00:10:01.160 --> 00:10:07.320
+esto no depende de ningún evento y Por
+
+00:10:03.240 --> 00:10:07.320
+tanto se procesa antes de entrar al
+
+00:10:12.519 --> 00:10:16.480
+juego un proceso natural en la mayoría
+
+00:10:14.959 --> 00:10:18.000
+de videojuegos es el doblaje a otros
+
+00:10:16.480 --> 00:10:19.720
+idiomas Y esta es otra etapa de los
+
+00:10:18.000 --> 00:10:21.440
+diálogos ya que acá se deben adaptar
+
+00:10:19.720 --> 00:10:23.200
+cada una de esos cientos o miles de
+
+00:10:21.440 --> 00:10:24.880
+líneas a un nuevo idioma Acá hay que
+
+00:10:23.200 --> 00:10:27.399
+tener en cuenta la consistencia en
+
+00:10:24.880 --> 00:10:31.040
+cierta medida y la duración e intención
+
+00:10:27.399 --> 00:10:31.040
+con la interpretación original
+
+00:10:32.360 --> 00:10:35.480
+ahora bien todos estos sonidos deben ser
+
+00:10:34.040 --> 00:10:37.279
+programados para que funcionen dentro
+
+00:10:35.480 --> 00:10:39.519
+del juego y aunque no es una labor
+
+00:10:37.279 --> 00:10:41.079
+específica del ingeniero de sonido Sí es
+
+00:10:39.519 --> 00:10:43.519
+muy probable que tengas que aprender
+
+00:10:41.079 --> 00:10:45.839
+algo de programación Ya que en cierto
+
+00:10:43.519 --> 00:10:48.000
+modo esto te ayudará a entender Cuáles
+
+00:10:45.839 --> 00:10:50.800
+son las posibilidades y los límites del
+
+00:10:48.000 --> 00:10:52.920
+motor del juego Okay otra cosa más para
+
+00:10:50.800 --> 00:10:54.279
+definir el motor del juego básicamente
+
+00:10:52.920 --> 00:10:55.959
+es el software sobre el cual se
+
+00:10:54.279 --> 00:10:59.480
+desarrolló seguramente has oído hablar
+
+00:10:55.959 --> 00:11:02.200
+de Unity o unreal engine o Cry engine
+
+00:10:59.480 --> 00:11:04.839
+Estos son motores de
+
+00:11:02.200 --> 00:11:06.639
+juego Así que no porque tengas una idea
+
+00:11:04.839 --> 00:11:08.360
+significa que esta se pueda implementar
+
+00:11:06.639 --> 00:11:10.440
+porque el motor de juego tiene unos
+
+00:11:08.360 --> 00:11:12.079
+límites Entonces si por ejemplo quiero
+
+00:11:10.440 --> 00:11:13.920
+hacer que un sonido tenga cierto nivel
+
+00:11:12.079 --> 00:11:16.079
+de atenuación o que de la sensación de
+
+00:11:13.920 --> 00:11:18.160
+distancia y que el motor se encargue de
+
+00:11:16.079 --> 00:11:20.600
+hacer eso primero debo saber si es
+
+00:11:18.160 --> 00:11:22.360
+posible y bajo qué parámetros el motor
+
+00:11:20.600 --> 00:11:25.279
+lo hace por esta razón debo adentrarme
+
+00:11:22.360 --> 00:11:25.279
+también un poco en la
+
+00:11:25.720 --> 00:11:29.880
+programación Y si la labor ya parece
+
+00:11:28.000 --> 00:11:31.720
+titánica también debes concentrar tu
+
+00:11:29.880 --> 00:11:33.920
+energía en hacer algo único y
+
+00:11:31.720 --> 00:11:35.560
+conceptualmente interesante ya que al
+
+00:11:33.920 --> 00:11:37.720
+mismo tiempo de ser un trabajo que
+
+00:11:35.560 --> 00:11:39.760
+requiere mucha destreza técnica también
+
+00:11:37.720 --> 00:11:41.720
+es a nivel artístico y creativo muy
+
+00:11:39.760 --> 00:11:43.600
+demandante porque no se trata solo de
+
+00:11:41.720 --> 00:11:46.320
+colocar los sonidos sino de dar una
+
+00:11:43.600 --> 00:11:48.399
+identidad auditiva que sea coherente con
+
+00:11:46.320 --> 00:11:51.000
+la parte visual interesante para el
+
+00:11:48.399 --> 00:11:52.790
+jugador y que sea principal participe en
+
+00:11:51.000 --> 00:11:54.639
+la experiencia inmersiva del
+
+00:11:52.790 --> 00:11:57.040
+[Música]
+
+00:11:54.639 --> 00:11:58.399
+juego algo que tal vez no imaginas Es
+
+00:11:57.040 --> 00:12:00.000
+que para muchos de los involucrados en
+
+00:11:58.399 --> 00:12:01.800
+el desarrollo de un videojuego la
+
+00:12:00.000 --> 00:12:03.959
+experiencia se aleja mucho de sentarse a
+
+00:12:01.800 --> 00:12:05.720
+jugar por horas de hecho en la mayoría
+
+00:12:03.959 --> 00:12:07.959
+de ocasiones te encuentras desarrollando
+
+00:12:05.720 --> 00:12:10.399
+contenido para un videojuego O personaje
+
+00:12:07.959 --> 00:12:12.399
+o situación que no has visto y que tal
+
+00:12:10.399 --> 00:12:14.600
+vez no verás Hasta que el juego esté en
+
+00:12:12.399 --> 00:12:16.519
+fase de Test o directamente después del
+
+00:12:14.600 --> 00:12:18.079
+lanzamiento yo particularmente he tenido
+
+00:12:16.519 --> 00:12:21.440
+la oportunidad de trabajar en grandes
+
+00:12:18.079 --> 00:12:24.279
+videojuegos como cyberpunk 2077 it takes
+
+00:12:21.440 --> 00:12:27.880
+two o Need For Speed entre otros y la
+
+00:12:24.279 --> 00:12:29.720
+verdad no he jugado a ninguno de
+
+00:12:27.880 --> 00:12:31.399
+ellos
+
+00:12:29.720 --> 00:12:33.480
+el audio para videojuegos es un tema muy
+
+00:12:31.399 --> 00:12:35.160
+extenso y trataremos de abordar cada uno
+
+00:12:33.480 --> 00:12:37.279
+de sus detalles en próximos videos en el
+
+00:12:35.160 --> 00:12:39.000
+Canal de momento Esto fue todo por hoy
+
+00:12:37.279 --> 00:12:42.040
+sobre el audio para videojuegos Espero
+
+00:12:39.000 --> 00:12:57.839
+que les haya gustado y vamos directo al
+
+00:12:42.040 --> 00:13:00.839
+[Música]
+
+00:12:57.839 --> 00:13:00.839
+punto
+
+00:13:01.720 --> 00:13:04.720
+i
